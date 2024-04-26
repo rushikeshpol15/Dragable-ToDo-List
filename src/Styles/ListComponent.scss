@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.list-box{
+    height: 75vh;
+    overflow-y: auto;
+    border: 1px solid rgba(128, 56, 196, 0.233);
+    padding: 0.2em;
+}
+.list-box::-webkit-scrollbar{
+    width:2px;
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+
+.list-title{
+    background-color: #1B2E4C;
+    color: #686CD1;
+    padding: 0.5em 0.9em;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-new-card{
+    background-color: #1B2E4C;
+    border: 1px solid #1B2E4C;
+    color: rgb(218, 213, 213);
+    padding: 0.5em;
+    text-align: center;
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 0.85em;
+    cursor: pointer;
+    &:hover{
+    background-color: #123164;
+    }
+}
+
+.card-outer-div{
+    background-color: #172335;
+    padding: 0.5em 0.5em 0.5em 0;
+    margin: 0.3em 0;
+    color: white;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:active{
+        border: 1px solid rgb(35, 60, 143);
+        background-color: #ED1335;
+    }
+    transition: 0.7s;
+}
+.card-inner-div{
+    border-left: 2px solid yellow;
+    padding-left: 1em;
+}
+@media screen and (max-width:550px) {
+    .card-inner-div{
+        font-size: 0.85em;
+    }
+}
+
+.emptydiv{
+    border: 1px solid rgb(187, 187, 187);
+    height: 30px;
+    padding: 0.2em;
+    color: rgb(148, 148, 148);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.hideEmptyDiv{
+    opacity: 0;
+    // height: 30px;
+}
