@@ -33,7 +33,7 @@ function ToDoListContainer()
             }
             if(localStorage.getItem('board')!=null)
             {
-                Swal.fire("you have already created customizable 4th task");
+                Swal.fire("you have already created customizable List");
                 document.getElementById('modal-closebtn').click();
                 return;
             }
