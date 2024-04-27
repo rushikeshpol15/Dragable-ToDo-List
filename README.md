@@ -2,6 +2,12 @@
 ## Try this Draggable TODO List https://rushikeshpol15-dragable-todo-list.netlify.app/
 # Draggable TODO LIST
 
+## sample video
+
+[![Video Demo](Screenshots/todo-records1.png)]
+
+## works fine even having multiple entries
+[![Video Demo](Screenshots/todo-records2.png)]
 
 ### Draggable TODO List is the todo list where you can drag and drop your tasks seamlessly
 
